@@ -6,7 +6,7 @@ const transactionData=[]
 document.getElementById("logout-btn"). 
 addEventListener('click',function(e){
     e.preventDefault()
-    window.location.href="../html/index.html"
+    window.location.href="../index.html"
 })
 
 //add money//
@@ -280,6 +280,8 @@ addEventListener('click',function(){
     document.getElementById("bonus-money").style.display="none"
     document.getElementById("pay-bill").style.display="none"
     document.getElementById("transaction-money").style.display="none"
+    document.getElementById("get-coupon").style.display="none"
+
 
     //btn-hover//
     const fromBtn= document.getElementsByClassName("from-btn")
@@ -303,6 +305,8 @@ addEventListener('click',function(){
     document.getElementById("bonus-money").style.display="none"
     document.getElementById("pay-bill").style.display="none"
     document.getElementById("transaction-money").style.display="none"
+    document.getElementById("get-coupon").style.display="none"
+
 
     //btn-hover//
     const fromBtn= document.getElementsByClassName("from-btn")
@@ -326,6 +330,8 @@ addEventListener('click',function(){
     document.getElementById("bonus-money").style.display="none"
     document.getElementById("pay-bill").style.display="none"
     document.getElementById("transaction-money").style.display="none"
+    document.getElementById("get-coupon").style.display="none"
+
    
     //btn-hover//
     const fromBtn= document.getElementsByClassName("from-btn")
@@ -347,6 +353,8 @@ addEventListener('click',function(){
     document.getElementById("bonus-money").style.display="block"
     document.getElementById("pay-bill").style.display="none" 
    document.getElementById("transaction-money").style.display="none"
+   document.getElementById("get-coupon").style.display="none"
+
 
    //btn-hover//
     const fromBtn= document.getElementsByClassName("from-btn")
@@ -369,6 +377,8 @@ addEventListener('click',function(){
     document.getElementById("bonus-money").style.display="none"
     document.getElementById("pay-bill").style.display="block"
        document.getElementById("transaction-money").style.display="none"
+       document.getElementById("get-coupon").style.display="none"
+
 
        //btn-hover//
     const fromBtn= document.getElementsByClassName("from-btn")
@@ -390,6 +400,7 @@ addEventListener('click',function(){
     document.getElementById("bonus-money").style.display="none"
     document.getElementById("pay-bill").style.display="none"
     document.getElementById("transaction-money").style.display="block"
+    document.getElementById("get-coupon").style.display="none"
 
 
       //btn-hover//

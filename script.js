@@ -12,7 +12,7 @@ document.getElementById("login-btn")
  const pinNumberValueConvert=parseInt(pinNumberValue)
 
  if(mobileNum===mobileNumberValueConvert && pin===pinNumberValueConvert){
-       window.location.href="../html/index2.html" }
+       window.location.href="./index2.html" }
  
  else{ alert("invalid! try again")}
 
